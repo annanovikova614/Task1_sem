@@ -37,7 +37,6 @@ public class Main {
                     System.out.println("Число в выбранном основании: " + Menu.printTheBaseSystem(valueOfNumericalSystem));
                     break;
                 case 2:
-
                     System.out.println("Число в десятеричной системе: " + Menu.printTheDecimalSystem(valueOfNumericalSystem));
                     break;
                 case 3:
