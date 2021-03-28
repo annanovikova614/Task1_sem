@@ -12,7 +12,7 @@ public class NumericalSystem {
     };
 
     public NumericalSystem(int base) throws BaseOutOfBoundsException {
-        if (base >= 2 && base <=32){
+        if (base >= 2 && base <=32) {
             this.base = base;
         } else throw new BaseOutOfBoundsException();
     }
